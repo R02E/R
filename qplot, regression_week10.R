@@ -62,7 +62,7 @@ ratio_commentCount
 ggplot(ratio_commentCount, aes(x=ratio_ch, y=mean_commentCount))+geom_col()
 
 
-## 10-2 : 선형회귀
+## 10-2 : 선형회귀, 회귀분석
 setwd("/Users/changmi-ra/Desktop/R-study")
 men<-read.csv("men_week10.csv")
 men
